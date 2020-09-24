@@ -57,7 +57,6 @@ def unzip_map():
         ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_maps)
         os.system(ostr)
         print('{} file unzipped into map folder'.format(choice))
-        set_current_board_shape(choice)
         print('--------------------------------------------------------------')
     else:
         print('not a valid input')
@@ -78,7 +77,6 @@ def unzip_gear():
         ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_gear)
         os.system(ostr)
         print('{} file unzipped into gear folder'.format(choice))
-        set_current_board_shape(choice)
         print('--------------------------------------------------------------')
     else:
         print('not a valid input')
