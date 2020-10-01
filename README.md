@@ -4,6 +4,26 @@ Python3 wrapper for basic linux terminal commands such as `mv`, for organising s
 Is used for swapping moded board shapes (I use for back to future hoverboard)
 ```bash
 foo@bar$ python3 SkaterXL_File_Manager.py
+#############################################################################################
+  __  _  __ __ _____ ___ ___ __   ___     __  __   __  ___ __     __  _  _  __  ___ ___  __
+ /' _/| |/ //  \_   _| __| _ \ \_/ / |   |  \/__\ /  \| _ \ _\  /' _/| || |/  \| _,\ __/' _/
+`._`.|   <| /\ || | | _|| v / > , <| |_  | -< \/ | /\ | v / v | `._`.| >< | /\ | v_/ _|`._`.
+|___/|_|\_\_||_||_| |___|_|_\/_/ \_\___| |__/\__/|_||_|_|_\__/  |___/|_||_|_||_|_| |___|___/
+#############################################################################################
+
+Current board shape in Steam folder:
+ - Original
+
+Custom board shapes in your repository:
+ - B2TF_Hoverboard
+ - Original
+ - Santa_Cruz_foot
+
+Input which board shape you want to play:
+B2TF_Hoverboard
+
+B2TF_Hoverboard files copied into Steam folder
+--------------------------------------------------------------
 ```
 ### SkaterXL_Downloads_Manager
 unpacks maps or gear into correct `Documents/SkaterXL/` from a `.zip` file in `Downloads/` diretory.
