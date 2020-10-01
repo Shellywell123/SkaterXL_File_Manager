@@ -1,6 +1,6 @@
 # SkaterXL Tools
 Python3 wrapper for basic linux terminal commands such as `mv`, for organising skaterxl mod files on your machine. Written with tab autocompletion and terminal printing for ease of use.
-### SkaterXL_File_Manager
+### SkaterXL_File_Manager (hasnt been updated for 1.0 beta yet)
 Is used for swapping moded board shapes (I use for back to future hoverboard)
 ```bash
 foo@bar$ python3 SkaterXL_File_Manager.py
