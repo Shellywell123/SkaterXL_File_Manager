@@ -49,12 +49,14 @@ def unzip_map():
     set_tab_complete_options(choice_list)
     choice = input('\nInput which map you want to unzip:\n'+input_colour)
     print(''+white)
+    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_')
+    
 
     if choice == 'exit':
         exit(0)
 
     if choice in choice_list:
-        ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_maps)
+        ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_maps+'/'+choice_formatted)
         os.system(ostr)
         print('{} file unzipped into map folder'.format(choice))
         print('--------------------------------------------------------------')
@@ -70,11 +72,12 @@ def unzip_gear():
     choice = input('\nInput which gear file you want to unzip:\n'+input_colour)
     print(''+white)
 
+    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_')
     if choice == 'exit':
         exit(0)
 
     if choice in choice_list:
-        ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_gear)
+        ostr = "unzip {} -d {}".format(path_to_downloads+'/'+choice,path_to_gear+'/'+choice_formatted)
         os.system(ostr)
         print('{} file unzipped into gear folder'.format(choice))
         print('--------------------------------------------------------------')
