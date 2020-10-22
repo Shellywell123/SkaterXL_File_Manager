@@ -49,7 +49,7 @@ def unzip_map():
     set_tab_complete_options(choice_list)
     choice = input('\nInput which map you want to unzip:\n'+input_colour)
     print(''+white)
-    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_')
+    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_').replace('.zip','')
     
 
     if choice == 'exit':
@@ -72,7 +72,7 @@ def unzip_gear():
     choice = input('\nInput which gear file you want to unzip:\n'+input_colour)
     print(''+white)
 
-    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_')
+    choice_formatted = choice.replace('[','_').replace('(','_').replace(']','_').replace(')','_').replace('.zip','')
     if choice == 'exit':
         exit(0)
 
